@@ -1,0 +1,15 @@
+var dice1 = Math.floor(Math.random() * 6)+1 ;
+var locDice1 = "images/dice"+dice1+".png" ;
+document.querySelector(".img1").setAttribute("src",locDice1) ;
+var dice2 = Math.floor(Math.random() * 6)+1 ;
+var locDice2 = "images/dice"+dice2+".png" ;
+document.querySelector(".img2").setAttribute("src",locDice2) ;
+if(dice1==dice2){
+    document.querySelector("h1").innerHTML = "Draww !!" ;
+}
+if(dice1>dice2){
+    document.querySelector("h1").innerHTML = "Player 1 winsss !!" ;
+}
+else if(dice2>dice1){
+    document.querySelector("h1").innerHTML = "Player 2 winsss !!" ;
+}

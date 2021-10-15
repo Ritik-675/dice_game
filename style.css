@@ -1,0 +1,14 @@
+.box1 , .box2{
+    display: inline-block;
+    margin: 2%;
+}
+.dice{
+    background-color: burlywood;
+    padding: 100%;
+}
+h1{
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
